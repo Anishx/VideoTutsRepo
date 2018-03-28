@@ -1,0 +1,134 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.v-header
+{
+    height: 100vh;/*slices - website to 100 sizes this header will fill all hundred of them */
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+/* now the video shd b on top */
+
+.container
+{
+    max-width: 960px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align: center;
+}
+
+.container h1
+{
+    font-weight: 1000;
+    font-family: Segoe Script;
+    font-size: 3rem;
+}
+
+.fullscreen-video-wrap
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.prex
+{
+    font-family: Sitka Banner;
+    font-size: 1.5rem;
+}
+
+.fullscreen-video-wrap video
+{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.header-overlay
+{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.50;
+}
+
+.header-content
+{
+    z-index: 2;
+}
+
+.header-content h1
+{
+    font-family:MV Boli;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-left: 200px;
+}
+.header-content p
+{
+    font-family: Gabriola;     
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 2rem;
+    padding-left: 13rem;
+}
+
+.btn
+{
+    background: #34B3A0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+.section
+{
+    padding: 20px 0;
+    
+}
+.section-b
+{
+    background: #333;
+    color: #fff;
+}
+
+.hxy 
+{
+    font-family: Sitka Banner;
+    font-size: 0.8rem;
+}
+@media(max-width:960px)
+{
+    .container
+    {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+
+
+
+
